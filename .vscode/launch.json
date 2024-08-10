@@ -1,0 +1,76 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+      {
+        "name": "next dev",
+        "request": "launch",
+        "runtimeArgs": [
+          "run",
+          "dev"
+        ],
+        
+        "runtimeExecutable": "npm",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "type": "node"
+      },
+      {
+        "name": "next build",
+        "request": "launch",
+        "runtimeArgs": [
+          "run",
+          "build"
+        ],
+        
+        "runtimeExecutable": "npm",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "type": "node"
+      },      {
+        "name": "next start",
+        "request": "launch",
+        "runtimeArgs": [
+          "run",
+          "start"
+        ],
+        
+        "runtimeExecutable": "npm",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "type": "node"
+      },      {
+        "name": "next lint",
+        "request": "launch",
+        "runtimeArgs": [
+          "run",
+          "lint"
+        ],
+        
+        "runtimeExecutable": "npm",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "type": "node"
+      },      {
+        "name": "组件调试(需要先启动dev环境)",
+        "request": "launch",
+        "runtimeArgs": [
+          "run",
+          "cosmos"
+        ],
+        
+        "runtimeExecutable": "npm",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "type": "node"
+      },
+
+
+
+    ]
+  }

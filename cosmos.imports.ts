@@ -4,6 +4,8 @@
 import { RendererConfig, UserModuleWrappers } from 'react-cosmos-core';
 
 import * as fixture0 from './src/Hello.fixture.jsx';
+import * as fixture1 from './src/components/test.fixture.jsx';
+import * as fixture2 from './src/components/PixelArtisCard.fixture.jsx';
 
 export const rendererConfig: RendererConfig = {
   "playgroundUrl": "http://localhost:5000",
@@ -11,7 +13,9 @@ export const rendererConfig: RendererConfig = {
 };
 
 const fixtures = {
-  'src/Hello.fixture.jsx': { module: fixture0 }
+  'src/Hello.fixture.jsx': { module: fixture0 },
+  'src/components/test.fixture.jsx': { module: fixture1 },
+  'src/components/PixelArtisCard.fixture.jsx': { module: fixture2 }
 };
 
 const decorators = {};
