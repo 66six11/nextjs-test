@@ -3,7 +3,7 @@ import PixelArtistCard from "./PixelArtisCard.fixture";
 
 const TestFixture = () => {
   return (
-    <div>
+    <div class="flex justify-center items-center w-full h-screen">
       <PixelArtistCard
         name="John Doe"
         image="\next.svg"
